@@ -246,8 +246,12 @@ section.home {
 
 /* travel section end */
 
-/* media section starts here */
+/* destination section start */
 
+
+/* destination section end */
+
+/* media section starts here */
 @media (max-width: 1020px) {
     html {
         font-size: 85%;
