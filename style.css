@@ -346,7 +346,37 @@ section.home {
 /* featured section start */
 
 .featured {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
+.featured .gallery .box:first-child {
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 2rem 1.5rem;
+}
+
+.featured .gallery .box:first-child h2 {
+    margin-bottom: .5rem;
+}
+
+.featured .gallery .box:first-child p {
+    margin-bottom: .5rem;
+    color: #666;
+}
+
+.featured .gallery .box:first-child a {
+    position: absolute;
+    bottom: 2rem;
+    padding: .4rem 1rem;
+    color: var(--white-color);
+    background: var(--green-color);
+    border-radius: 3rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.featured .gallery .box:first-child img {
+    width: 300px;
 }
 
 /* featured section end */
