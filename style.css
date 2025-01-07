@@ -343,6 +343,15 @@ section.home {
 
 /* destination section end */
 
+/* featured section start */
+
+.featured {
+
+}
+
+/* featured section end */
+
+
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
