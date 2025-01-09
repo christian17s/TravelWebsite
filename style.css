@@ -417,6 +417,7 @@ section.home {
 
 .featured .gallery .box .content .review-and-idr .review i {
     color: #ffa600;
+    padding-right: .5rem;
 }
 
 .featured .gallery .box .content .review-and-idr p {
@@ -428,6 +429,9 @@ section.home {
 
 /* featured section end */
 
+/* feedback section start */
+
+/* feedback section end */
 
 /* media section starts here */
 @media (max-width: 1020px) {
