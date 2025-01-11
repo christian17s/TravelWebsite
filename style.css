@@ -430,6 +430,65 @@ section.home {
 /* featured section end */
 
 /* feedback section start */
+.feedback {
+    background: url("./img/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback .container h4 {
+    color: rgb(255 255 255/90%);
+}
+
+.feedback .container h2 {
+    max-width: 40rem;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.feedback .container p {
+    color: #eee;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.feedback .voices {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.feedback .voices .voice {
+    flex: 1 0 320px;
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: .7rem;
+}
+
+.feedback .voices .voice .profile {
+    display: flex;
+    align-items: center;
+}
+
+.feedback .voices .voice .profile img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2rem;
+}
 
 /* feedback section end */
 
