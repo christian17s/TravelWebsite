@@ -490,6 +490,20 @@ section.home {
     border-radius: 2rem;
 }
 
+.feedback .voices .voice .profile .detail {
+    margin-left: 1rem;
+}
+
+.feedback .voices .voice .profile .detail li {
+    list-style: none;
+}
+
+.feedback .voices .voice .profile .deatil li:first-child {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+}
+
 /* feedback section end */
 
 /* media section starts here */
