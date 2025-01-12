@@ -498,10 +498,14 @@ section.home {
     list-style: none;
 }
 
-.feedback .voices .voice .profile .deatil li:first-child {
+.feedback .voices .voice .profile .detail li:first-child {
     font-size: 1.1rem;
     color: #000;
     font-weight: 600;
+}
+
+.feedback .voices .voice p {
+    margin-top: 1rem;
 }
 
 /* feedback section end */
@@ -603,6 +607,10 @@ section.home {
 
     .destinations .container .container-box .content {
         font-size: .8rem;
+    }
+
+    .feedback .container p {
+        font-size: .9rem;
     }
 }
 
