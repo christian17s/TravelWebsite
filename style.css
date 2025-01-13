@@ -246,6 +246,7 @@ section.home {
     text-align: center;
     max-width: 30rem;
     transform: translate(0, 100px);
+    opacity: 0;
 }
 
 .travel .container .box img {
@@ -347,6 +348,11 @@ section.home {
     color: var(--white-color);
     font-weight: 500;
 }
+
+.destinations .container .container-box .heading,
+.destinations .container .container-box .content {
+    transform: translate(-200px);
+} 
 
 /* destination section end */
 

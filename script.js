@@ -31,4 +31,25 @@ function animateContent(selector) {
     });
 }
 
+function scrollTriggerAnimation(triggerSelector, boxSelectors) {
+    const timeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: triggerSelector,
+            start: "top 50%",
+            end: "top 80%",
+            scrub: 1,
+        },
+    });
+
+    boxSelectors.forEach((boxSelectors) => {
+        timeline.to(boxSelectors, {
+            y: 0,
+            duration: 1,
+            opacity: 1,
+        });
+    })
+}
+
 animateContent([".home .content h5, .home .content h1, .home .content p, .home .content .search"]);
+
+scrollTriggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"])
